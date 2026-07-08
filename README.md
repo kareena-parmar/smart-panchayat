@@ -1,16 +1,135 @@
-# React + Vite
+# Smart Panchayat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Smart Panchayat is a web-based village governance system designed to digitize panchayat services and improve communication between citizens, officers, and administrators.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The platform allows citizens to register, submit complaints, and track their status. Officers can manage complaints and post announcements, while administrators can monitor overall system activities.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+### Citizen Module
+- Citizen Registration and Login
+- Submit Complaints
+- View Complaint History
+- View Announcements
+- Submit Feedback
+- Profile Management
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Officer Module
+- Officer Login
+- View and Manage Complaints
+- Post Announcements
+- Review Citizen Feedback
+- Profile Management
+
+### Admin Module
+- Manage Citizens
+- Manage Officers
+- Monitor Complaints
+- Monitor Announcements
+- Generate Reports
+
+---
+
+## Technologies Used
+
+### Frontend
+- React.js
+- Vite
+- Bootstrap
+- React Router DOM
+- CSS
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MySQL
+
+### Version Control
+- Git
+- GitHub
+
+---
+
+## Project Structure
+
+smart-panchayat/
+├── backend/
+├── src/
+├── public/
+├── package.json
+├── vite.config.js
+└── README.md
+
+---
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone <repository-url>
+```
+
+### Install Frontend Dependencies
+
+```bash
+npm install
+```
+
+### Install Backend Dependencies
+
+```bash
+cd backend
+npm install
+```
+
+### Configure Environment Variables
+
+Create a file:
+
+```text
+backend/.env
+```
+
+Example:
+
+```env
+PORT=5000
+```
+
+### Start Backend
+
+```bash
+cd backend
+npm start
+```
+
+### Start Frontend
+
+```bash
+npm run dev
+```
+
+---
+
+## Future Enhancements
+
+- AI-powered complaint assistance
+- Multi-language support
+- Location-based complaint tracking
+- Mobile application support
+- Notification system
+
+---
+
+## Author
+
+Kareena Parmar
+
+MCA Student, NIT Trichy
